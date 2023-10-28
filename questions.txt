@@ -1,0 +1,85 @@
+Question #1
+
+SIMULATION -
+Configure your Host Name, IP Address, Gateway and DNS.
+Host name: station.domain40.example.com
+/etc/sysconfig/network
+hostname=abc.com
+hostname abc.com
+
+IP Address:172.24.40.40/24 -
+
+Gateway172.24.40.1 -
+
+DNS:172.24.40.1 -
+
+
+
+Question #2
+
+SIMULATION -
+Add 3 users: harry, natasha, tom.
+The requirements: The Additional group of the two users: harry, Natasha is the admin group. The user: tom's login shell should be non-interactive.
+
+
+
+
+Question #3 
+
+SIMULATION -
+Create a catalog under /home named admins. Its respective group is requested to be the admin group. The group users could read and write, while other users are not allowed to access it. The files created by users from the same group should also be the admin group.
+
+
+
+
+Question #4
+
+SIMULATION -
+Configure a task: plan to run echo hello command at 14:23 every day.
+
+
+
+
+Question #5 
+
+SIMULATION -
+Find the files owned by harry, and copy it to catalog: /opt/dir (Use / for searching)
+
+
+Question #6
+
+SIMULATION -
+Create a 2G swap partition which take effect automatically at boot-start, and it should not affect the original swap partition.
+Destination: /swapfile2
+
+
+
+
+Question #7 
+
+SIMULATION -
+
+Create a backup -
+Create a backup file named /root/backup.tar.bz2, contains the content of /tmp, tar must use bzip2 to compress.
+
+
+Question #8 
+
+SIMULATION -
+Please open the ip_forward, and take effect permanently.
+
+
+
+
+Question #9
+
+SIMULATION -
+Who ever creates the files/directories on /home/archive, group owner should be automatically should be the same group owner of archive.
+
+
+
+
+Question #10
+
+SIMULATION -
+Enable SELinux and make it permanent
